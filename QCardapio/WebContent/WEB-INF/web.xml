@@ -4,12 +4,12 @@
   <welcome-file-list>   
     <welcome-file>login.jsp</welcome-file>    
   </welcome-file-list>
-  <servlet>
+  <!-- <servlet>
     <servlet-name>processaLogin</servlet-name>
     <servlet-class>br.com.calltek.qcardapio.controller.ServletValidaLogin </servlet-class>
 </servlet>
 <servlet-mapping>
     <servlet-name>processaLogin</servlet-name>
     <url-pattern> /validaLogin.do </url-pattern>
-</servlet-mapping>
+</servlet-mapping> -->
 </web-app>

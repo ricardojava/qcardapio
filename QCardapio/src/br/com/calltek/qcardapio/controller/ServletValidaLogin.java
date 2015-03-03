@@ -3,12 +3,15 @@ package br.com.calltek.qcardapio.controller;
 
 import java.io.IOException;
  
+
 import javax.servlet.ServletException;
+import javax.servlet.annotation.WebServlet;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 import javax.servlet.http.HttpSession;
  
+
 import br.com.calltek.qcardapio.model.bean.Usuario;
 import br.com.calltek.qcardapio.model.dao.UsuarioDao;
  
@@ -17,7 +20,7 @@ import br.com.calltek.qcardapio.model.dao.UsuarioDao;
  * @author hallan medeiros
  *
  */
-
+@WebServlet("/validaLogin.do")
 public class ServletValidaLogin extends HttpServlet {
  
     private static final long serialVersionUID = 7633293501883840556L;
